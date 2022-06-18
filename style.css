@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cerceve{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: ring 3s linear infinite;
+}
+@keyframes ring{
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px #e65c00;
+    }
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px #18b201;
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #0456c8;
+    }
+}
+.cerceve::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .3);
+}
+span{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    animation: text_color 20s linear infinite;
+}
+@keyframes text_color {
+    0%{
+        color: #e65c00;
+    }
+    25%{
+        color: #18b201;
+    }
+    50%{
+        color: #0456c8;
+    }
+    75%{
+        color: #18b201;
+    }
+    100%{
+        color: #e65c00;
+    }
+}
+.hikaye{
+    position: absolute;
+    top: 75%;
+    animation: text_hikaye 20s ease-in-out infinite;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    /* color: white; */
+    animation: text_hikaye 20s ease-in-out infinite;
+}
+@keyframes text_hikaye {
+    0%{
+        color: #e65c00;
+    }
+    15%{
+        color: black;
+    }
+    25%{
+        color: #18b201;
+    }
+    45%{
+        color: black;
+    }
+    55%{
+        color: #0456c8;
+    }
+    75%{
+        color: black;
+    }
+    85%{
+        color: #18b201;
+    }
+    100%{
+        color: black;
+    }
+}
+
+.anasayfa{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.anasayfa button{
+    background: none;
+    color: white;
+    width: auto;
+    padding: 15px;
+    border-radius:20px;
+    animation: borderbutton 20s ease-in-out infinite;
+}
+.anasayfa button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+@keyframes borderbutton{
+    0%{
+        box-shadow: 1px 2px 2px #e65c00,-1px -2px 2px #e65c00;    }
+    50%{
+        box-shadow: 1px 2px 2px #18b201,-1px -2px 2px #18b201;
+    }
+    100%{
+        box-shadow: 1px 2px 2px #0456c8,-1px -2px 2px #0456c8;
+    }
+}

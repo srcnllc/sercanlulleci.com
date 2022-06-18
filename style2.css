@@ -1,0 +1,363 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #fbfbfb;
+}
+.image{
+    width: 35%;
+    height: 100%;
+    background-image: url(./img/resim1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    width: 65%;
+    height: 100%;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.aboutMe{
+    width: 90%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    overflow: hidden;
+}
+.aboutMe p:nth-child(1){
+    margin-bottom: 50px;
+    font-size: 200%;
+    text-shadow: 1px 1px 5px tomato;
+}
+.aboutMe p:nth-child(1):hover{
+    transform: scale(1.5);
+}
+
+.yeteneklerim{
+    width: 90%;
+    height:100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.yeteneklerim h2{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.yetenek_card{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    padding: 15px;
+    justify-content: space-around;
+}
+.card{
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px black;
+}
+.card img{
+    height:70px;
+    background-color:white;
+}
+.card:nth-child(1):hover{
+    box-shadow: rgb(255 87 34 / 80%) 0px 22px 70px 4px;
+    border: 1px solid rgb(255, 87, 34);
+}
+.card:nth-child(2):hover{
+    box-shadow: rgb(20 114 182 / 80%) 0px 22px 70px 4px;
+    border: 1px solid rgb(20, 114, 182);
+}
+.card:nth-child(3):hover{
+    box-shadow: rgb(214 190 0 / 80%) 0px 22px 70px 4px;
+    border: 1px solid rgb(214, 190, 0);
+}
+.card:nth-child(4):hover{
+    box-shadow: rgb(1 217 255 / 80%) 0px 22px 70px 4px;
+    border: 1px solid rgb(1, 217, 255);
+}
+.card:nth-child(5):hover{
+    box-shadow: rgb(255 206 49 / 80%)  0px 22px 70px 4px;
+    border: 1px solid rgb(255, 206, 49);
+}
+.card:nth-child(6):hover{
+    box-shadow: rgb(0 88 156 / 80%)  0px 22px 70px 4px;
+    border: 1px solid rgb(0, 88, 156);
+}
+.card:nth-child(7):hover{
+    box-shadow: rgb(3 16 43 / 80%)  0px 22px 70px 4px;
+    border: 1px solid rgb(3, 16, 43);
+}
+.card:nth-child(8):hover{
+    box-shadow: rgb(38 6 32 / 80%)  0px 22px 70px 4px;
+    border: 1px solid rgb(38, 6, 32);
+}
+.card:nth-child(9):hover{
+    box-shadow: rgb(34 117 71 / 80%)  0px 22px 70px 4px;
+    border: 1px solid rgb(34, 117, 71);
+}
+.card:nth-child(10):hover{
+    box-shadow: rgb(37 85 154 / 80%)  0px 22px 70px 4px;
+    border: 1px solid rgb(37, 85, 154);
+}
+.card:nth-child(11):hover{
+    box-shadow: rgb(210 69 36 / 80%)  0px 22px 70px 4px;
+    border: 1px solid rgb(210,69, 36);
+}
+.ozgecmis_transgrip{
+    width: 80%;
+    margin: 20px auto;
+    display:flex;
+    justify-content: space-between;
+}
+.ozgecmis_transgrip button{
+    padding: 15px;
+    outline: none;
+    border-radius: 10px;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.ozgecmis_transgrip button:hover{
+    transform: scale(1.1);
+    background-color:rgb(255, 87, 34);
+    color: black;
+    box-shadow: rgb(0 0 0 / 80%)  0px 22px 70px 4px;
+}
+.egitimlerim{
+    width: 90%;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.egitimlerim h2 , .sertifikalarım h2 , .projelerim h2 , .iletişim h2{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom:50px;
+}
+#lise , .lisans {
+    margin-left: 25px;  
+    margin-right: 25px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.sertifikalarım{
+    width: 90%;
+    height:auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.sertifika_cart{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 15px;
+    justify-content: space-around;
+}
+.sertifika_cart img{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+.sertifika_cart img:hover{
+    transform: scale(1.5);
+}
+.projelerim{
+    width: 90%;
+    height:auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.projelerim .proje_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.projelerim .proje_cart h4{
+    width: 80%;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgb(145, 28, 28);
+}
+.iletişim{
+    width: 90%;
+    height:auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iletişim .iletisim_cart{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    margin-bottom: 30px;
+}
+.far , .fas , .fab , .fa-brands{
+    padding: 5px;
+    color: darkcyan;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.far:hover,.fas:hover,.fab:hover,.fa-brands:hover{
+    transform: scale(1.1);
+    color:rgb(255, 87, 34);
+    box-shadow: rgb(0 0 0 / 80%)  0px 22px 70px 4px;
+}
+ #mail , #tel ,#git,#linke,#face , #youtube{
+    display: flex;
+    align-items: center;
+}
+.iletisim_cart a{
+    text-decoration: none;
+    color: black;
+}
+.iletisim_cart a:hover ,h3:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width : 480px) {
+
+    .image{
+        display: none;
+    }
+    .aboutMe{
+        height: auto;
+    }
+    .content{
+        width: 100%;
+    }
+    .yeteneklerim{
+        height: auto;
+    }
+    .yetenek_card{
+        grid-template-columns: auto auto;
+    }
+    .ozgecmis_transgrip{
+        flex-direction: column;
+    }
+    .ozgecmis_transgrip button{
+        margin-bottom: 25px;
+    }
+    #lise , .lisans{
+        font-size: 15px;
+    }
+    .sertifika_cart{
+        grid-template-columns: auto;
+    }
+    .projelerim .proje_cart iframe{
+        width: 90%;
+        height: auto;
+    }
+    .iletişim{
+        font-size: 15px;
+    }
+    .far , .fas , .fab , .material-symbols-outlined{
+        font-size: 15px;
+    }
+  }
+  @media screen and (min-width : 480px) and (max-width : 768px) {
+
+    .image{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+    .yeteneklerim{
+        height: auto;
+    }
+    .yetenek_card{
+        grid-template-columns: auto auto auto;
+    }
+    .ozgecmis_transgrip{
+        flex-direction: column;
+    }
+    .ozgecmis_transgrip button{
+        margin-bottom: 25px;
+    }
+    #lise , .lisans{
+        font-size: 20px;
+    }
+    .sertifika_cart{
+        grid-template-columns: auto;
+    }
+    .projelerim .proje_cart iframe{
+        width: 90%;
+        height: auto;
+    }
+    .iletişim{
+        font-size: 20px;
+    }
+    .far , .fas , .fab , .material-symbols-outlined{
+        font-size: 20px;
+    }
+  }
+  @media screen and (min-width : 769px) and (max-width : 1279px) {
+
+    .yeteneklerim{
+        height: auto;
+    }
+    .yetenek_card{
+        grid-template-columns: auto auto auto ;
+    }
+    .ozgecmis_transgrip{
+        flex-direction: column;
+    }
+    .ozgecmis_transgrip button{
+        margin-bottom: 25px;
+    }
+    #lise , .lisans{
+        font-size: 20px;
+    }
+    .sertifika_cart{
+        grid-template-columns: auto;
+    }
+    .projelerim .proje_cart iframe{
+        width: 90%;
+        height: auto;
+    }
+    .iletişim{
+        font-size: 20px;
+    }
+    .far , .fas , .fab , .material-symbols-outlined{
+        font-size: 20px;
+    }
+  }
