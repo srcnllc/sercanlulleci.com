@@ -216,7 +216,7 @@
     width: 80%;
     padding-bottom: 15px;
     margin-bottom: 25px;
-    border-bottom: 2px solid rgb(145, 28, 28);
+    border-bottom: 2px dotted rgb(145, 28, 28);
 }
 .iletişim{
     width: 90%;
