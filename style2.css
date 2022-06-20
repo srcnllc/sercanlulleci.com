@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 
 
@@ -36,10 +38,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:center;
     margin-bottom: 30px;
     /* font-family: 'Patrick Hand', cursive; */
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
     overflow: hidden;
