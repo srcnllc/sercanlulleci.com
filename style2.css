@@ -47,6 +47,10 @@
     font-weight: bold;
     overflow: hidden;
 }
+.aboutMe img{
+    width: 300px;
+    height: 150px;
+}
 .aboutMe p:nth-child(1){
     margin-bottom: 50px;
     font-size: 200%;
@@ -365,4 +369,9 @@
     .far , .fas , .fab , .fa-brands{
         font-size: 20px;
     }
+  }
+
+  .iletişim .logo img{
+    width: 300px;
+    height: 150px;
   }
