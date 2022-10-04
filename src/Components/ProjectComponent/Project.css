@@ -1,0 +1,66 @@
+.ProjectContent {
+    width: 80%;
+    height: 100vh;
+    margin: 30px auto;
+
+  }
+  .ProjectContent h2{
+    font-size: 40px;
+    padding-top: 25px;
+    color: #1f1f1f;
+    text-shadow: 2px 2px #525050;
+    text-align: center;
+  }
+  .projectCard .pcard .image{
+    width: 100%;
+    height: 200px;
+    border: 1px solid violet;
+  }
+.projectCard{
+  margin: 30% 0;
+  }
+  .pcard h4{
+    font-size: 12px;
+  }
+  .pcard{
+    width: 80%;
+    height: 300px;
+    border: 1px solid #1f1f1f;
+    box-shadow: 4px 4px 2px #363535;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .linkItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.l_icon{
+  width: 75px;
+  padding: 5px;
+  border: 1px solid #1f1f1f;
+  border-radius: 5px ;
+  transition: 0.3s;
+  }
+  .l_icon:hover{
+    background-color: rgb(32, 197, 32);
+  }
+@media screen and (max-width:760px) {
+  .ProjectContent {
+    height: auto;
+  }
+  .linkItem{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+  }
+  .pcard h4{
+    font-size: 12px;
+  }
+}

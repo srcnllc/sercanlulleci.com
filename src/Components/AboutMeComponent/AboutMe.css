@@ -1,0 +1,135 @@
+.center{
+    width:80%;
+    height: 100vh;
+    margin: 0 auto;
+    display:flex;
+}
+.resim{
+    width: 35%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.resim img{
+    width:100%;
+    border: 8px solid #1f1f1f;
+    padding: 5px;
+    box-shadow: 1px 1px 8px #1f1f1f;
+    filter: drop-shadow(2px 2px 2px #1f1f1f);
+}
+.aboutMe{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 55px;
+    color: #1f1f1f;
+}
+.aboutMe h1{
+    font-size: 40px;
+    margin-bottom:15px;
+    text-shadow: 2px 2px #525050;
+}
+.aboutMe p{
+    width: 75%;
+    font-size: 18px;
+    margin-top:15px;
+}
+.button{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.button button{
+    width: 150px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color:#1f1f1f;
+    color:#c4b3a1;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button button:hover{
+    background-color:#c4b3a1;
+    border: 1px solid #1f1f1f;
+    color: #1f1f1f;
+
+}
+
+@media screen and (max-width:480px) {
+    .center{
+        width:100%;
+        height: auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .aboutMe{
+        align-items: center;
+        padding: 0px;
+
+    }
+    .aboutMe h1{
+        margin: 0 auto  ;
+    }
+    .aboutMe h2{
+        font-size: 20px;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width:760px) {
+    .center{
+        width: 100%;
+        height: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .aboutMe h2{
+        font-size: 18px;
+    }
+    .aboutMe p{
+        font-size: 16px;
+    }
+    .button{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .center{
+        width: 90%;
+        height: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .aboutMe h2{
+        font-size: 20px;
+    }
+    .aboutMe p{
+        font-size: 18px;
+    }
+    .button{
+        width: 80%;
+        border: 1px solid red;
+    }
+}
