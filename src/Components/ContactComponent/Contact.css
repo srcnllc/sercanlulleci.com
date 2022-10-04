@@ -39,7 +39,6 @@
     font-size: 25px;
 }
 .contactlink{
-    width: 550px;
     margin-bottom: 15px;
     font-size: 18px;
     display: flex;
@@ -66,7 +65,6 @@
         align-items: center;
     }
     .contact{
-        width: 80%;
         font-size: 18px;
         padding-left: 20px;
     }
