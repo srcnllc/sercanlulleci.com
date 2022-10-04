@@ -94,14 +94,14 @@ const dbArray = {
         },
         {
             "ProjectId": 14,
-            "ProjectName": "Fronend developer loading",
+            "ProjectName": "Frontend developer loading",
             "img": "https://s4.gifyu.com/images/loading.jpg",
             "link": "https://www.youtube.com/watch?v=UEzsVcYIPUw",
             "gitHub": "https://github.com/srcnllc/Loading_Animation"
         },
         {
             "ProjectId": 15,
-            "ProjectName": "React-Kullanıcı Giriş Fromu",
+            "ProjectName": "React-Kullanıcı Giriş Formu",
             "img": "https://s5.gifyu.com/images/giris-form.jpg",
             "link": "https://www.youtube.com/watch?v=mff2eUWaipc",
             "gitHub": "https://github.com/srcnllc/Kullanici_giris_formu"

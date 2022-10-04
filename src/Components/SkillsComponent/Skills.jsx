@@ -14,7 +14,7 @@ import ms from '../../logo/office.png'
 function Skills() {
   return (
     <div className="container-skills">
-        <h1>MY SKİLLS</h1>
+        <h1>MY SKILLS</h1>
        <div className="yetenek_card">
         <div className="skillCard">
             <img src={html} alt="html" />
@@ -26,7 +26,7 @@ function Skills() {
         </div>
         <div className="skillCard">
             <img src={js} alt="js" />
-            <h4>JAVASCRİPT</h4>
+            <h4>JAVASCRIPT</h4>
         </div>
         <div className="skillCard">
             <img src={bootstrap} alt="bootstrap" />
@@ -42,11 +42,11 @@ function Skills() {
         </div>
         <div className="skillCard">
             <img src={pr} alt="premiere" />
-            <h4>A.PREMİERE</h4>
+            <h4>A.PREMIERE</h4>
         </div>
         <div className="skillCard">
             <img src={ms} alt="m.office" />
-            <h4>M.OFFİCE</h4>
+            <h4>M.OFFICE</h4>
         </div>
         
        </div>
