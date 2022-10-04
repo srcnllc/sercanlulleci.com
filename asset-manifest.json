@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/sercanlulleci.com/static/css/main.b9b7a014.css",
+    "main.js": "/sercanlulleci.com/static/js/main.8145eac8.js",
+    "static/media/img.jpg": "/sercanlulleci.com/static/media/img.37b5be62fa442f944b71.jpg",
+    "static/media/bg.jpg": "/sercanlulleci.com/static/media/bg.4560992e7748bd112496.jpg",
+    "static/media/bg2.jpg": "/sercanlulleci.com/static/media/bg2.fa8cab4bd8cc1b1e350a.jpg",
+    "static/media/Photoshop.png": "/sercanlulleci.com/static/media/Photoshop.19dcd23c4aa9e23ad757.png",
+    "static/media/Premiere.png": "/sercanlulleci.com/static/media/Premiere.cd7453941827af175ecf.png",
+    "static/media/bootstrap.png": "/sercanlulleci.com/static/media/bootstrap.3397e827fa37a2398559.png",
+    "static/media/office.png": "/sercanlulleci.com/static/media/office.c9e3765e2c64fe05dce3.png",
+    "static/media/react.png": "/sercanlulleci.com/static/media/react.a24ff506a78e9243046a.png",
+    "static/media/css.png": "/sercanlulleci.com/static/media/css.3bdd12be7a3be5a6d6c9.png",
+    "static/media/js.png": "/sercanlulleci.com/static/media/js.0ac3013eb518bb7f10d7.png",
+    "static/media/youtube.png": "/sercanlulleci.com/static/media/youtube.13c4cd04a663677f43bc.png",
+    "static/media/github.png": "/sercanlulleci.com/static/media/github.52ede61632060d5ebcc9.png",
+    "static/media/ssss.png": "/sercanlulleci.com/static/media/ssss.d5ba902d6c4b9c0cbf0d.png",
+    "static/media/html.png": "/sercanlulleci.com/static/media/html.1091507a91df90a83edb.png",
+    "static/media/slick.svg": "/sercanlulleci.com/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sercanlulleci.com/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sercanlulleci.com/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sercanlulleci.com/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/sercanlulleci.com/index.html",
+    "main.b9b7a014.css.map": "/sercanlulleci.com/static/css/main.b9b7a014.css.map",
+    "main.8145eac8.js.map": "/sercanlulleci.com/static/js/main.8145eac8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9b7a014.css",
+    "static/js/main.8145eac8.js"
+  ]
+}
