@@ -31,9 +31,9 @@ const indirjs=() =>{
                 I want to start my career as a front-end developer and continue as a full-stack developer.
             </p>
             <div className="button">
-                <button onClick={indirözgecmis}>Özgeçmiş</button>
+                <button onClick={indirözgecmis}>resume</button>
                 <button onClick={indirtranskript}>Transgrip</button>
-                <button onClick={indirjs}>Javascript Döküman</button>
+                <button onClick={indirjs}>Javascript Document</button>
             </div>
         </div>
     </div>
