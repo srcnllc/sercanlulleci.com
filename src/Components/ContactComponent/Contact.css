@@ -57,6 +57,9 @@
 }
 
 @media screen and (max-width:480px) {
+    .contactcontent img{
+        width: 50%;
+    }
     .contactcontent{
         flex-direction: column;
         justify-content: center;
@@ -65,10 +68,7 @@
     .contact{
         width: 80%;
         font-size: 18px;
+        padding-left: 20px;
     }
    
-}
-@media screen and (max-width:760px) {
-
-
 }
