@@ -26,14 +26,14 @@ const indirjs=() =>{
         </div>
          <div className="aboutMe">
             <h1>ABOUT ME</h1>
-            <h2>Mathematician & Web Designer</h2>
-            <p>I am a mathematician. And I am developing myself to be a front-end web developer. I can write html-css-javascript and react. I can design responsive for mobile devices.
+            <h2>Mathematician & FrontEnd Developer</h2>
+            <p>I am a mathematician. And I am developing myself to be a front-end web developer. I can write HTML-CSS-JavaScript and React. I can design responsive for mobile devices.
                 I want to start my career as a front-end developer and continue as a full-stack developer.
             </p>
             <div className="button">
-                <button onClick={indirözgecmis}>resume</button>
-                <button onClick={indirtranskript}>Transgrip</button>
-                <button onClick={indirjs}>Javascript Document</button>
+                <button onClick={indirözgecmis}>Resume</button>
+                <button onClick={indirtranskript}>Transkrip</button>
+                <button onClick={indirjs}>JavaScript Document</button>
             </div>
         </div>
     </div>

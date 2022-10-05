@@ -38,15 +38,15 @@ function Skills() {
         </div>
         <div className="skillCard">
             <img src={ps} alt="photoshop" />
-            <h4>A.PHOTOSHOP</h4>
+            <h4>A. PHOTOSHOP</h4>
         </div>
         <div className="skillCard">
             <img src={pr} alt="premiere" />
-            <h4>A.PREMIERE</h4>
+            <h4>A. PREMIERE</h4>
         </div>
         <div className="skillCard">
             <img src={ms} alt="m.office" />
-            <h4>M.OFFICE</h4>
+            <h4>M. OFFICE</h4>
         </div>
         
        </div>
