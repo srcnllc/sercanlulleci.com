@@ -65,7 +65,7 @@ function Project() {
             {data.map((item, index) =>
               <div className='projectCard' key={index} >
                 <div className="pcard">
-                  <h4>{item.ProjectName.toUpperCase()}</h4>
+                  <h4>{item.ProjectId}-{item.ProjectName.toUpperCase()}</h4>
                   <img src={item.img} alt={item.ProjectName} className='image'/>
                  <div className="linkItem">
                    <a href={item.link} rel="noreferrer noopener" target='_blank'><img className='l_icon' src={youtube} alt='Youtube'/></a>
