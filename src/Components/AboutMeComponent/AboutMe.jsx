@@ -11,7 +11,7 @@ function Eğitim() {
   }
 const indirtranskript=() =>{
   // eslint-disable-next-line no-restricted-globals
-    location.href="https://drive.google.com/file/d/1p0zzQNxjktipFqiKoupkJiuHjZ7Z5WHu/view?usp=sharing";
+    location.href="https://drive.google.com/file/d/14zwhnSUTRuGH8T2GXa5vWLTHjnhX3JcW/view?usp=sharing";
 
 }
 const indirjs=() =>{
