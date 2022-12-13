@@ -11,6 +11,7 @@ import ms from '../../logo/office.png'
 
 
 
+
 function Skills() {
   return (
     <div className="container-skills">
@@ -20,6 +21,7 @@ function Skills() {
             <img src={html} alt="html" />
             <h4>HTML</h4>
         </div>
+
         <div className="skillCard">
             <img src={css} alt="css" />
             <h4>CSS</h4>
