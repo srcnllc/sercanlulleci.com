@@ -1,7 +1,9 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import './Home.css';
 import logo from '../../img/ssss.png'
 import { useSpring, animated } from 'react-spring'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
@@ -15,6 +17,9 @@ function Home() {
     delay: 150,
     onRest: () => set(!flip),
   })
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  },[])
 
   return (
     <div className='container'>
@@ -24,9 +29,9 @@ function Home() {
       </animated.h1>
 
         <div className='hello'>
-          <p>Hello , my name is</p>
-          <h1>SERCAN LÜLLECİ</h1>
-          <p>I am a FRONT END DEVELOPER</p>
+          <p data-aos="fade-right">Hello , my name is</p>
+          <h1 data-aos="fade-left">SERCAN LÜLLECİ</h1>
+          <p data-aos="fade-right">I am a FRONT END DEVELOPER</p>
         </div>
       </div>
     </div>

@@ -6,6 +6,8 @@ import './Project.css';
 import youtube from '../../logo/youtube.png'
 import github from '../../logo/github.png'
 import dbarray from '../../db'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 function Project() {
@@ -16,6 +18,7 @@ function Project() {
     useEffect(() => {
       console.log(dbarray.project)
       setData(dbarray.project)
+      AOS.init({duration:2000})
     }, [])
     const settings = {
       infinite: true,
@@ -60,11 +63,11 @@ function Project() {
     };
   return (
     <div className='ProjectContent'>
-        <h2>MY PROJECTS</h2>
+        <h2 data-aos="fade-down">MY PROJECTS</h2>
         <Slider {...settings}>
             {data.map((item, index) =>
               <div className='projectCard' key={index} >
-                <div className="pcard">
+                <div className="pcard" data-aos="fade-up">
                   <h4>{item.ProjectId}-{item.ProjectName.toUpperCase()}</h4>
                   <img src={item.img} alt={item.ProjectName} className='image'/>
                  <div className="linkItem">
