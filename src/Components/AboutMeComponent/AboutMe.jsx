@@ -13,7 +13,7 @@ function Eğitim() {
 
   const indirözgecmis=() =>{
   // eslint-disable-next-line no-restricted-globals
-    location.href="https://drive.google.com/file/d/1IgWB0BOSYACmgJmdgJS-hCC14UMctxhq/view?usp=sharing";
+    location.href="https://drive.google.com/file/d/1t_S3VuJBorO7FC6d05bAt00alZ3p--AY/view?usp=sharing";
   }
 const indirtranskript=() =>{
   // eslint-disable-next-line no-restricted-globals
@@ -37,9 +37,9 @@ const indirjs=() =>{
                 I want to start my career as a front-end developer and continue as a full-stack developer.
             </p>
             <div className="button">
-                <button onClick={indirözgecmis} data-aos='flip-right' target={"_blank"} >Resume</button>
-                <button onClick={indirtranskript} data-aos="zoom-out">Transkrip</button>
-                <button onClick={indirjs} data-aos='flip-left'>JavaScript Document</button>
+                <button onClick={indirözgecmis} data-aos='flip-right' target='_blank' >Resume</button>
+                <button onClick={indirtranskript} data-aos="zoom-out" target='_blank'>Transkrip</button>
+                <button onClick={indirjs} data-aos='flip-left' target='_blank'>JavaScript Document</button>
             </div>
         </div>
     </div>
