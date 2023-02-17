@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sercanlulleci.com/static/css/main.d1158782.css",
-    "main.js": "/sercanlulleci.com/static/js/main.344f0025.js",
+    "main.js": "/sercanlulleci.com/static/js/main.614f9f80.js",
     "static/media/img.jpg": "/sercanlulleci.com/static/media/img.37b5be62fa442f944b71.jpg",
     "static/media/bg.jpg": "/sercanlulleci.com/static/media/bg.4560992e7748bd112496.jpg",
     "static/media/bg2.jpg": "/sercanlulleci.com/static/media/bg2.fa8cab4bd8cc1b1e350a.jpg",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/sercanlulleci.com/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sercanlulleci.com/index.html",
     "main.d1158782.css.map": "/sercanlulleci.com/static/css/main.d1158782.css.map",
-    "main.344f0025.js.map": "/sercanlulleci.com/static/js/main.344f0025.js.map"
+    "main.614f9f80.js.map": "/sercanlulleci.com/static/js/main.614f9f80.js.map"
   },
   "entrypoints": [
     "static/css/main.d1158782.css",
-    "static/js/main.344f0025.js"
+    "static/js/main.614f9f80.js"
   ]
 }
