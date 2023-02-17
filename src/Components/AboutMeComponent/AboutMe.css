@@ -43,6 +43,7 @@
     flex-wrap: wrap;
     margin-top: 50px;
     justify-content: space-between;
+    overflow: hidden;
 }
 .button button{
     width: 150px;

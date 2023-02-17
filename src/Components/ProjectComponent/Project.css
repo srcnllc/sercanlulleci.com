@@ -17,6 +17,7 @@
   }
 .projectCard{
   margin: 30% 0;
+  overflow: hidden;
   }
   .pcard h4{
     font-size: 12px;

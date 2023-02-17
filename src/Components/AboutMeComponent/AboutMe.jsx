@@ -37,7 +37,7 @@ const indirjs=() =>{
                 I want to start my career as a front-end developer and continue as a full-stack developer.
             </p>
             <div className="button">
-                <button onClick={indirözgecmis} data-aos='flip-right'>Resume</button>
+                <button onClick={indirözgecmis} data-aos='flip-right' target={"_blank"} >Resume</button>
                 <button onClick={indirtranskript} data-aos="zoom-out">Transkrip</button>
                 <button onClick={indirjs} data-aos='flip-left'>JavaScript Document</button>
             </div>
