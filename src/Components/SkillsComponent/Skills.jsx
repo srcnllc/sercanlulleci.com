@@ -5,9 +5,9 @@ import css from '../../logo/css.png'
 import js from '../../logo/js.png'
 import bootstrap from '../../logo/bootstrap.png'
 import react from '../../logo/react.png'
+import next from '../../logo/next.png'
 import ps from '../../logo/Photoshop.png'
 import pr from '../../logo/Premiere.png'
-import ms from '../../logo/office.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -35,12 +35,16 @@ function Skills() {
             <h4>JAVASCRIPT</h4>
         </div>
         <div className="skillCard" data-aos="fade-right" data-aos-easing="linear">
-            <img src={bootstrap} alt="bootstrap" />
-            <h4>BOOTSTRAP</h4>
+        <img src={react} alt="react" />
+            <h4>REACT.JS</h4>
         </div>
         <div className="skillCard" data-aos="fade-left" data-aos-easing="linear">
-            <img src={react} alt="react" />
-            <h4>REACT.JS</h4>
+            <img src={next} alt="next" />
+            <h4>NEXT.JS</h4>
+        </div>
+        <div className="skillCard" data-aos="fade-left" data-aos-easing="linear">
+            <img src={bootstrap} alt="bootstrap" />
+            <h4>BOOTSTRAP</h4>
         </div>
         <div className="skillCard" data-aos="fade-left" data-aos-easing="linear">
             <img src={ps} alt="photoshop" />
@@ -49,10 +53,6 @@ function Skills() {
         <div className="skillCard" data-aos="fade-left" data-aos-easing="linear">
             <img src={pr} alt="premiere" />
             <h4>A. PREMIERE</h4>
-        </div>
-        <div className="skillCard" data-aos="fade-left" data-aos-easing="linear">
-            <img src={ms} alt="m.office" />
-            <h4>M. OFFICE</h4>
         </div>
         
        </div>
