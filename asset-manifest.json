@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/sercanlulleci.com/static/css/main.d1158782.css",
-    "main.js": "/sercanlulleci.com/static/js/main.614f9f80.js",
+    "main.js": "/sercanlulleci.com/static/js/main.3388a6c6.js",
     "static/media/img.jpg": "/sercanlulleci.com/static/media/img.37b5be62fa442f944b71.jpg",
     "static/media/bg.jpg": "/sercanlulleci.com/static/media/bg.4560992e7748bd112496.jpg",
     "static/media/bg2.jpg": "/sercanlulleci.com/static/media/bg2.fa8cab4bd8cc1b1e350a.jpg",
     "static/media/Photoshop.png": "/sercanlulleci.com/static/media/Photoshop.19dcd23c4aa9e23ad757.png",
     "static/media/Premiere.png": "/sercanlulleci.com/static/media/Premiere.cd7453941827af175ecf.png",
     "static/media/bootstrap.png": "/sercanlulleci.com/static/media/bootstrap.3397e827fa37a2398559.png",
-    "static/media/office.png": "/sercanlulleci.com/static/media/office.c9e3765e2c64fe05dce3.png",
     "static/media/react.png": "/sercanlulleci.com/static/media/react.a24ff506a78e9243046a.png",
     "static/media/css.png": "/sercanlulleci.com/static/media/css.3bdd12be7a3be5a6d6c9.png",
     "static/media/js.png": "/sercanlulleci.com/static/media/js.0ac3013eb518bb7f10d7.png",
@@ -22,10 +21,10 @@
     "static/media/slick.woff": "/sercanlulleci.com/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sercanlulleci.com/index.html",
     "main.d1158782.css.map": "/sercanlulleci.com/static/css/main.d1158782.css.map",
-    "main.614f9f80.js.map": "/sercanlulleci.com/static/js/main.614f9f80.js.map"
+    "main.3388a6c6.js.map": "/sercanlulleci.com/static/js/main.3388a6c6.js.map"
   },
   "entrypoints": [
     "static/css/main.d1158782.css",
-    "static/js/main.614f9f80.js"
+    "static/js/main.3388a6c6.js"
   ]
 }
